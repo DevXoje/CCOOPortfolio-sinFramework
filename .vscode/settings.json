@@ -1,0 +1,28 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#521c14",
+		"titleBar.activeBackground": "#290e0a",
+		"titleBar.activeForeground": "#e7e7e7",
+		"activityBar.activeBackground": "#521c14",
+		"activityBar.activeBorder": "#1f802c",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.inactiveForeground": "#e7e7e799",
+		"activityBarBadge.background": "#1f802c",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"statusBar.background": "#290e0a",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#521c14",
+		"titleBar.inactiveBackground": "#290e0a99",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"editor.insertSpaces": false,
+	"editor.wordWrap": "on",
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
+	"peacock.color": "#290e0a"
+}
