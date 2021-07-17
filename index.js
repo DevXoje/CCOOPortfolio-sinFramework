@@ -1,6 +1,7 @@
 const express = require("express");
+const { env } = require("process");
 const app = express();
-const port = 3000;
+const port = 3000 || env.PORT;
 app.use(express.static("public"));
 app.get("/", (req, res) => {
 	res.sendFile("index.html");
