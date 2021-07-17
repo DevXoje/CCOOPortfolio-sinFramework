@@ -1,5 +1,4 @@
 const express = require("express");
-const { env } = require("process");
 const app = express();
 const port = 3000 || process.env.PORT;
 app.use(express.static("public"));
